@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="plugins/slick-folder/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="plugins/slick-folder/slick/slick-theme.css">
+    <link rel="stylesheet" href="plugins/Dynamic-Quiz/dist/jquery.quiz-min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+
+    <body>
+
+    <div class="hero container-fluid page" id="top">
+      <div class="row">
+        <div class="col-md-6 hero-title">
+          <h1>The Golden Record</h1>
+          <br>
+          <p>Pioneers 10 and 11, which preceded Voyager, both carried small metal plaques identifying their time and place of origin for the benefit of any other spacefarers that might find them in the distant future. With this example before them, NASA placed a more ambitious message aboard Voyager 1 and 2, a kind of time capsule, intended to communicate a story of our world to extraterrestrials.</p>
+        </div>
+        <div class="col-md-6 hero-pic">
+          <img src="images/bw.png" alt="#">
+        </div>
+      </div>
+      <div class="row arrow">
+        <a href="#is-info" class="arrow"><img src="images/blue-down-arrow.png" alt=#></a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="main-content row page what-info" id="is-info">
+        <div class="col-md-6">
+          <img src="images/record-back.png" class="record-back" alt="#">
+        </div>
+        <div class="col-md-6">
+          <h1>What is it?</h1>
+          <br>
+          <p>The information in the upper right-hand portion of the cover is designed to show how pictures are to be constructed from the recorded signals. The top drawing shows the typical signal that occurs at the start of a picture. The picture is made from this signal, which traces the picture as a series of vertical lines, similar to ordinary television (in which the picture is a series of horizontal lines). Picture lines 1, 2 and 3 are noted in binary numbers, and the duration of one of the "picture lines," about 8 milliseconds, is noted. The drawing immediately below shows how these lines are to be drawn vertically, with staggered "interlace" to give the correct picture rendition. Immediately below this is a drawing of an entire picture raster, showing that there are 512 vertical lines in a complete picture. Immediately below this is a replica of the first picture on the record to permit the recipients to verify that they are decoding the signals correctly. A circle was used in this picture to ensure that the recipients use the correct ratio of horizontal to vertical height in picture reconstruction.</p>
+        </div>
+        <div class="row arrow">
+          <a href="#on-info"><img src="images/blue-down-arrow.png" alt="#"></a>
+        </div>
+      </div>
+
+      <div class="row images-grid page on-page container-fluid" id="on-info">
+        <div class="col-md-6 on" id="rotate">
+          <h1>What's on it?</h1>
+          <br>
+          <p>The contents of the record were selected for NASA by a committee chaired by Carl Sagan of Cornell University, et. al. Dr. Sagan and his associates assembled 115 images and a variety of natural sounds, such as those made by surf, wind and thunder, birds, whales, and other animals. To this they added musical selections from different cultures and eras, and spoken greetings from Earth-people in fifty-five languages, and printed messages from President Carter and U.N. Secretary General Waldheim.</p>
+        </div>
+        <div class="col-md-6 box-grid">
+            <img src="images/sounds-image.jpg" alt="#">
+        </div>
+
+        <div class="row arrow">
+          <a href="#images"><img src="images/blue-down-arrow.png" alt="#"></a>
+        </div>
+      </div>
+
+      <div class="page slider-box" id="images">
+        <div class="slider-title row">
+        <h1>A few images from the Golden Record</h1>
+        </div>
+
+        <div class="slider">
+          <div><img src="images/image1.gif" alt="#"></div>
+          <div><img src="images/image2.gif" alt="#"></div>
+          <div><img src="images/image3.gif" alt="#"></div>
+        </div>
+
+        <div class="row arrow">
+          <a href="#quiz"><img src="images/blue-down-arrow.png" alt="#"></a>
+        </div>
+
+      </div>
+
+      <div id="quiz" class="quiz">
+        <div id="quiz-header">
+          <h1>Comprehension Quiz</h1>
+          <p><a id="quiz-home-btn"></a></p>
+        </div>
+        <div id="quiz-start-screen">
+          <p>
+            <a href="#" id="quiz-start-btn" class="quiz-button">Start Quiz</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="row footer">
+        <a href="#top"><img src="images/scroll-top.png" alt="#"></a>
+      </div>
+
+
+
+      <!-- container end div -->
+    </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="plugins/Dynamic-Quiz/dist/jquery.quiz-min.js"></script>
+  <script type="text/javascript" src="plugins/slick-folder/slick/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>
